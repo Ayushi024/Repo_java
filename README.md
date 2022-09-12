@@ -1,6 +1,6 @@
 TITLE: Basic Java Programming
 
-Ques1:Write a program to find the largest of 3 numbers.
+Ques1:Write a program to find the largest of 3 numbers.\n
 Ques2:Write a program to implement a command line calculator.
 Ques3:Write a program to accept 10 student’s marks in an array, arrange it into ascending order, convert into the following grades and print marks and grades in the tabular form.
          Between 40 and 50 : PASS 
