@@ -1,0 +1,26 @@
+import java.util.*;
+class SquareSum
+{
+    int result =0;
+    public void Square()
+    {
+        Scanner sc=new Scanner(System.in);
+        int i=0;
+        int a[]=new int[10];
+        for(i=0;i<10;i++)
+        {
+            System.out.println("Enter a no");
+            a[i]=sc.nextInt();
+        }
+        for(i=0;i<10;i++)
+        {
+            result=result+a[i]*a[i];
+        }
+        System.out.println("The result is "+result);
+    }
+    public static void main(String args[])
+    {
+        SquareSum obj=new SquareSum();
+        obj.Square();
+    }
+}
