@@ -1,0 +1,17 @@
+import java.lang.*;
+class Sum
+{
+public static void main(String arg[])
+{
+  int sum=0;
+  for(int i=40;i<251;i++)
+  {
+    if(i%5==0)
+   {
+     System.out.println(i);
+     sum = sum + i;
+   }
+  } 
+System.out.println("the sum of intergers from 40 to 250 that can be divided by 5 are\n" + sum);
+}
+}
