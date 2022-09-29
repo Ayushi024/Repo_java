@@ -1,0 +1,48 @@
+class worker
+{
+String name;
+int salary_rate;
+Worker(String name,int salary_rate){
+this.name=name;
+this.salary_rate=salary_rate;}
+}
+class DailyWorker extends Worker
+{
+	int days:
+	int total;
+	Dailyworker(String name,int salary_rate,int days)
+	{
+		super(name,salary_rate);
+		this.days = days;
+	}
+	void company(int days,int salary_rate)
+	{
+	total=days*salary_rate;
+	System.out.println("total money="+total);
+	}
+}
+
+class Salariedworker extends Worker
+{
+	int total;
+	int hours=40;
+	salariedworker(String name,int salary_rate)
+	{
+		super(name,salary_rate);
+	}
+	void company(int salary_rate)
+	{
+		total=40*salary_rate;
+	System.out.println("total money="+total);
+	}
+}
+class Salary
+{
+	public static void main(String[] args)
+	{
+		Dailyworker d1 = new Dailyworker("Ram",50,7);
+		salariedworker s1 = new Salariedworker("monu",20);
+		d1.compay(7,50);
+		s1.compay(20);
+}
+}
