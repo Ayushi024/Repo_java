@@ -1,0 +1,19 @@
+package balance;
+import java.lang.*;
+public class Account
+{
+public double display_balance(double a)
+{
+return a*100;
+}
+}
+package calculator;
+import balance.*;
+public class Test2
+{
+public static void main(String args[])
+{
+Account ac=new Account();
+System.out.println("the amount is="+ac.display_balance(2000));
+}
+}
