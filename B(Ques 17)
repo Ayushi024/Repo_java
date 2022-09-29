@@ -1,0 +1,36 @@
+package p;
+import java.lang.*;
+
+public class Aa 
+{
+    void method1()
+    {
+        System.out.println("Default method invoked");
+    }    
+    public void method2()
+    {
+        System.out.println("Public method invoked");
+    }
+    protected void method3()
+    {
+        System.out.println("Protected method invoked");
+    }
+    private void method4()
+    {
+        System.out.println("Private method invoked");
+    } 
+}
+package q;
+import p.*;
+public class B extends Aa
+{
+    public static void main(String[] args)
+    {
+        B obj = new B();
+
+          obj.method1();
+	     obj.method2();
+          obj.method3();
+          obj.method4();
+    }
+}
