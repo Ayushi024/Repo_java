@@ -1,0 +1,81 @@
+public class Player{
+String name;
+int age;
+double height;
+Player (String n,int a, double h)
+{
+name=n;
+age=a;
+height=h;
+}
+ void printdetails(){
+System.out.println("Name is:"+name);
+System.out.println("age is:"+age);
+System.out.println("heigt is:"+height);
+
+}
+} 
+class CricketPlayer extends Player
+{
+String teamname;
+String position;
+
+CricketPlayer(String n,int a,double h,String t,String p)
+{
+super(n,a,h);
+teamname=t;
+position=p;
+}
+ public void printdetails()
+{
+super.printdetails();
+System.out.println("teamname is:"+teamname);
+System.out.println("position:"+position);
+}
+}
+class FootballPlayer extends Player
+{
+String teamname;
+String position;
+
+FootballPlayer(String n,int a,double h,String t,String p)
+{
+super(n,a,h);
+teamname=t;
+position=p;
+}
+ public void printdetails()
+{
+super.printdetails();
+System.out.println("teamname is:"+teamname);
+System.out.println("position:"+position);
+}
+}
+class HockeyPlayers extends Player
+{
+String teamname;
+String position;
+
+HockeyPlayers(String n,int a,double h,String t,String p)
+{
+super(n,a,h);
+teamname=t;
+position=p;
+}
+ public void printdetails()
+{
+super.printdetails();
+System.out.println("teamname is:"+teamname);
+System.out.println("position:"+position);
+}
+}
+class Sport{
+public static void main(String args[]){
+FootballPlayer f= new FootballPlayer("Ayushi",20,168.02,"Football","captain");
+CricketPlayer c= new CricketPlayer("paridhi",20,160.02,"Cricket","captain");
+HockeyPlayers h= new HockeyPlayers("Manas",20,158.02,"Hockey","captain");
+f.printdetails();
+c.printdetails();
+h.printdetails();
+}
+}
