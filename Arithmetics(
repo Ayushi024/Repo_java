@@ -1,0 +1,19 @@
+package Mathematics;
+import java.lang.*;
+public class Arithmetics
+{
+public int add(int x, int y)
+{
+return x+y;
+}
+}
+package Calculator;
+import Mathematics.*;
+public class Test1
+{
+public static void main(String args[])
+{
+Arithmetics obj=new Arithmetics();
+System.out.println("5+9="+obj.add(5,9));
+}
+}
