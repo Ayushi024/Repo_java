@@ -1,0 +1,20 @@
+ public class Car{
+    int no;
+    String model;
+    
+    Car(int no,String model)
+    {
+    this.no=no;
+    this.model=model;
+    }
+    public void display()
+    {
+        System.out.println(no+""+model);
+    }
+    public static void main(String args[]){
+        
+    
+    Car C1=new Car(2424,"mustang ecoboost");
+    C1.display();
+}
+}
