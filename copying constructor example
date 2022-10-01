@@ -1,0 +1,27 @@
+public class Student {
+    int roll;
+    String name;
+    
+    Student(int r,String n)
+    {
+        roll=r;
+        name=n;
+    }
+    Student(Student obj)
+    {
+        roll=obj.roll;
+        name=obj.name;
+    }
+    void display()
+{
+    System.out.println(roll+""+name);
+}
+    public static void main(String args[])
+    {
+        Student S1=new Student(23,"nnn");
+        Student S2=new Student(S1);
+        S1.display();
+        S2.display();
+        
+    }
+}
