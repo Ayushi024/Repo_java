@@ -50,4 +50,15 @@ Ques 16:Write a program to make a package Balance. This has an Account class wit
 
 Ques 17:WAP to create a package p with class A with 4 types of access protected methods. Howwe will use these methods in different packages class i.e. there is main() in class B inpackage Q and 4 methods are in Class A in package p.
 
-Ques 18:
+TITLE: Interface
+
+
+Ques 18:Write a program to create interface named test. In this interface the member function is square. Implement this interface in arithmetic class. Create one new class called To TestInt. In this class use the object of arithmetic class.
+
+Ques 19:Write a program to create interface A, in this interface we have two method meth1 and meth2. Implements this interface in another class named MyClass
+
+Ques 20:Write a program in Java to show the usefulness of Interfaces as a place to keepconstant value of the program
+
+Ques 21:Write a program to create an Interface having two methods division and modules. Createa class, which overrides these methods.
+
+Ques 22:Write a program to create an interface StackInterface having methods push (), pop ()and display (). StackClass implements StackInterface. Class StackClass containsthe main method which is having a switch case for selecting the particularoperation of the stack.
