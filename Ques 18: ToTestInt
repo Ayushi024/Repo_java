@@ -1,0 +1,22 @@
+interface Test
+{
+void square(int a);
+}
+class Arithmetics implements Test
+{
+public void square(int n)
+{
+System.out.println("square of no is :" +(n*n));
+}
+}
+
+class ToTestInt
+{
+public static void main(String args[])
+{
+Arithmetics obj=new Arithmetics(); 
+Test t;
+t=obj;
+t.square(5);
+}
+}
