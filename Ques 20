@@ -1,0 +1,13 @@
+interface Test
+{
+    int number=100;
+}
+    
+public class Usefullness implements Test
+{
+ public static void main(String args[])
+{
+	Usefullness obj =new Usefullness();
+	System.out.println(obj.number);
+}
+}
