@@ -1,0 +1,21 @@
+import java.util.*;
+class Demo
+{  
+    static int a,b;
+    public static void main(String args[])
+    {
+        try
+        {
+            a = Integer.parseInt(args[0]);
+            b = Integer.parseInt(args[2]); 
+            if(args[1].equals("+"))
+            {
+                System.out.println(a+b);
+            }
+        }
+        catch(NumberFormatException e)
+        {
+            System.out.println("Wrong input entered");
+        }
+    }
+}
