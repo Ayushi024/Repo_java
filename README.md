@@ -42,16 +42,14 @@ Ques 14:Design a class employee of an organization. An employee has a name, empi
 
 TITLE:PACKAGES
 
-
-
 Ques 15: Write a Java program to implement the concept of importing classes from user definedpackage and created packages.
 
 Ques 16:Write a program to make a package Balance. This has an Account class with Display_Balance method. Import Balance package in another program to accessDisplay_Balance method of Account class.
 
 Ques 17:WAP to create a package p with class A with 4 types of access protected methods. Howwe will use these methods in different packages class i.e. there is main() in class B inpackage Q and 4 methods are in Class A in package p.
 
-TITLE: Interface
 
+TITLE: Interface
 
 Ques 18:Write a program to create interface named test. In this interface the member function is square. Implement this interface in arithmetic class. Create one new class called To TestInt. In this class use the object of arithmetic class.
 
@@ -62,3 +60,14 @@ Ques 20:Write a program in Java to show the usefulness of Interfaces as a place 
 Ques 21:Write a program to create an Interface having two methods division and modules. Createa class, which overrides these methods.
 
 Ques 22:Write a program to create an interface StackInterface having methods push (), pop ()and display (). StackClass implements StackInterface. Class StackClass containsthe main method which is having a switch case for selecting the particularoperation of the stack.
+
+
+TITLE: Exceptions
+
+Ques 23:Write aprogram in Java to display the names and roll numbers of students. Initializerespective array variables for 10 students. HandleArrayIndexOutOfBoundsExeption, so that any such problem doesn’t cause illegaltermination of program.
+
+Ques 24:Createan exception class, which throws an exception if operand is nonnumeric incalculating modules. (Use command line arguments).
+
+Ques 25:Write acode to create your own exception class. Create another class, inside mainmethod prompt user to enter a number if number is less than 500 throw instancesof your custom exception class.
+
+Ques 26:You are given two integers,a and b as input, you have to compute a/b: Ifa andbarenotbit signed integers or ifis zero, exception will occur and youhave to report it. Read sample Input/Output to know what to report in case ofexceptions.
