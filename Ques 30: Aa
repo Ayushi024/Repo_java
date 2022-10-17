@@ -1,0 +1,30 @@
+class Aa
+{
+static void Occurences(String obj)
+{
+ System.out.println("Occurences of a:");
+ for(int i=0;i<obj.length();i++)
+{
+if(obj.charAt(i)=='a' || obj.charAt(i)=='A')
+{
+ System.out.println("Index :"+i);
+}
+}
+}
+public static void main(String args[])
+{
+String obj = "Ayushii";
+System.out.println("String in the object : "+obj);
+System.out.println("Length : "+obj.length());
+
+if(obj.contains("a"))
+{
+ System.out.println("contains a");
+ Occurences (obj);
+}
+else
+{
+ System.out.println("Does not contain a");
+}
+}
+}
