@@ -1,4 +1,4 @@
-TITLE: Basic Java Programming
+                                                               TITLE: Basic Java Programming
 
 Ques1:Write a program to find the largest of 3 numbers.
 
@@ -23,8 +23,8 @@ Ques8:Write a program to input a number of a month (1 - 12) and print its equiva
 
 Ques9:Write a program to find the sum of all integers greater than 40 and less than 250 that are divisible by 5.
 
-
-TITLE:INHERITANCE
+         
+                                                                        TITLE:INHERITANCE
 
 
 Ques 10:.Write a Java program to show that private member of a super class cannot be accessed from derived classes?
@@ -40,7 +40,7 @@ Ques 14:Design a class employee of an organization. An employee has a name, empi
 
 
 
-TITLE:PACKAGES
+                                                                        TITLE:PACKAGES
 
 Ques 15: Write a Java program to implement the concept of importing classes from user definedpackage and created packages.
 
@@ -49,7 +49,7 @@ Ques 16:Write a program to make a package Balance. This has an Account class wit
 Ques 17:WAP to create a package p with class A with 4 types of access protected methods. Howwe will use these methods in different packages class i.e. there is main() in class B inpackage Q and 4 methods are in Class A in package p.
 
 
-TITLE: Interface
+                                                                        TITLE: Interface
 
 Ques 18:Write a program to create interface named test. In this interface the member function is square. Implement this interface in arithmetic class. Create one new class called To TestInt. In this class use the object of arithmetic class.
 
@@ -62,7 +62,7 @@ Ques 21:Write a program to create an Interface having two methods division and m
 Ques 22:Write a program to create an interface StackInterface having methods push (), pop ()and display (). StackClass implements StackInterface. Class StackClass containsthe main method which is having a switch case for selecting the particularoperation of the stack.
 
 
-TITLE: Exceptions
+                                                                        TITLE: Exceptions
 
 Ques 23:Write aprogram in Java to display the names and roll numbers of students. Initializerespective array variables for 10 students. HandleArrayIndexOutOfBoundsExeption, so that any such problem doesn’t cause illegaltermination of program.
 
@@ -73,7 +73,7 @@ Ques 25:Write acode to create your own exception class. Create another class, in
 Ques 26:You are given two integers,a and b as input, you have to compute a/b: Ifa andbarenotbit signed integers or ifis zero, exception will occur and youhave to report it. Read sample Input/Output to know what to report in case ofexceptions.
 
 
-TITLE: Strings Handling and Wrapper Class
+                                                               TITLE: Strings Handling and Wrapper Class
 
 
 
@@ -89,7 +89,7 @@ Ques 29:Write aprogram in Java to read a statement from console, convert it into
 Ques 30:Write aprogram in Java to create a String object. Initialize this object with yourname. Find the length of your name using the appropriate String method. Findwhether the character ‘a’ is in your name or not; if yes find the number oftimes ‘a’ appears in your name. Print locations of occurrences of ‘a’ .Try thesame for different String objects
 
 
-TITLE: Wrapper Classes
+                                                                            TITLE: Wrapper Classes
 
 
 Ques 31:Write a Javacode that converts int to Integer, converts Integer to String, converts Stringto int, converts int to String, converts String to Integer converts Integer toint.
