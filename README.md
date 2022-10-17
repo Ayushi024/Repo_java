@@ -71,3 +71,28 @@ Ques 24:Createan exception class, which throws an exception if operand is nonnum
 Ques 25:Write acode to create your own exception class. Create another class, inside mainmethod prompt user to enter a number if number is less than 500 throw instancesof your custom exception class.
 
 Ques 26:You are given two integers,a and b as input, you have to compute a/b: Ifa andbarenotbit signed integers or ifis zero, exception will occur and youhave to report it. Read sample Input/Output to know what to report in case ofexceptions.
+
+
+TITLE: Strings Handling and Wrapper Class
+
+
+
+Ques 27:Write aprogram for searching strings for the first occurrence of a character orsubstring and for the last occurrence of a character or substring
+
+
+Ques 28:Write aprogram that converts all characters of a string in capital letters. (UseStringBuffer to store a string). Don’t use inbuilt function.
+
+
+Ques 29:Write aprogram in Java to read a statement from console, convert it into upper caseand again print on console. (Don’t use inbuilt function)
+
+
+Ques 30:Write aprogram in Java to create a String object. Initialize this object with yourname. Find the length of your name using the appropriate String method. Findwhether the character ‘a’ is in your name or not; if yes find the number oftimes ‘a’ appears in your name. Print locations of occurrences of ‘a’ .Try thesame for different String objects
+
+
+TITLE: Wrapper Classes
+
+
+Ques 31:Write a Javacode that converts int to Integer, converts Integer to String, converts Stringto int, converts int to String, converts String to Integer converts Integer toint.
+
+
+Ques 32:Write a Javacode that converts float to Float converts Float to String converts String tofloat converts float to String converts String to Float converts Float tofloat.
