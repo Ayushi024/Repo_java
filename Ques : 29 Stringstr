@@ -1,0 +1,18 @@
+import java.io.*;
+class Stringstar
+{
+public static void main(String args[])throws IOException
+{
+ InputStreamReader in = new InputStreamReader(System.in);
+ BufferedReader br = new BufferedReader(in);
+ String str = br.readLine();
+for( int i=0; i<str.length(); i++)
+{
+ if(str.charAt(i)>=97 && str.charAt(i)<=122)
+{
+str = str.replace(str.charAt(i),(char)(str.charAt(i)-32));
+}
+}
+System.out.println("String in upper case:"+str);
+}
+}
