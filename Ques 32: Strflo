@@ -1,0 +1,28 @@
+class Strflo
+{
+public static void main(String args[])
+{
+ float a = 1.2f;
+ System.out.println("Value of a (float) : "+a);
+ 
+ Float A=a;
+ System.out.println("Value of A(float to float): "+A);
+ 
+ String s= String.valueOf(A);
+ System.out.println("Value of s (float to String) : "+s+"\n");
+
+String temp ="4.0";
+System.out.println("Value of temp (String) :"+temp);
+float b = Float.parseFloat(temp);
+System.out.println("Value of b (String to float) : "+b);
+
+String t= String.valueOf(b);
+System.out.println("Value of t (float to String) : "+t);
+
+Float B = Float.valueOf(t);
+System.out.println("Value of B (Float to String) :"+B);
+
+float C =B;
+System.out.println("Value of c (Float to float) : "+C);
+}
+}
