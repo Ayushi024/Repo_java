@@ -1,0 +1,22 @@
+class Intstr
+{
+public static void main(String args[])
+{
+ int a =5;
+ System.out.println("Value of a (int) :"+a);
+ Integer A=a;
+ System.out.println("Value of A(int to Integer): "+A);
+
+ String S =A.toString();
+ System.out.println("Value of S (integer to String): "+S);
+ int b = Integer.parseInt(S);
+ System.out.println("Value of b(String to int) :"+b);
+ int c = 10;
+ String str = Integer.toString(c);
+ System.out.println("Value of str(int to String) :"+str);
+ Integer B = Integer.valueOf(str);
+System.out.println("Value of B(String to Integer) :"+B);
+int d =B;
+System.out.println("Value of d(Integer to int) :"+d);
+}
+}
