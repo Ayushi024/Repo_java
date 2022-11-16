@@ -1,0 +1,39 @@
+class even extends Thread
+{
+   public void run()
+{
+        for(int i=0;i<10;i++)
+          {
+            if(i%2==0)
+            System.out.println(i+ "even");
+        }
+    }
+}
+class odd extends Thread
+{
+   public void run()
+{
+        for(int i=0;i<10;i++)
+{
+            if(i%2 !=0)
+            System.out.println(i + "odd");
+        }
+    }
+}
+public class Que
+{
+    public static void main(String[] args) 
+{
+        even obj1=new even();
+        obj1.start();
+ try
+{    even.sleep(1000);
+}
+catch(InterruptedException e)
+{ 
+   System.out.println(e);
+}
+         odd obj2=new odd();
+        obj2.start();
+    } 
+}
