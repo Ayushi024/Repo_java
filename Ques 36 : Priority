@@ -1,0 +1,73 @@
+class Priority extends Thread
+{
+public Priority(String string)
+{
+ this.setName(string);
+}
+ 
+ public void run()
+{
+int p=Thread.currentThread().getPriority();
+
+if(p==MAX_PRIORITY)
+{
+Thread.currentThread();
+try
+{
+ Thread.sleep(1000);
+}
+catch(InterruptedException e)
+{
+System.out.println(e);
+}
+}
+System.out.println(Thread.currentThread().getName()+" is running");
+}
+public static void main(String args[])
+{
+Priority t1=new Priority("Thread 1");
+t1.setPriority(MAX_PRIORITY);
+Priority t2=new Priority("Thread 2");
+t2.setPriority(3);
+Priority t3=new Priority("Thread 3");
+t3.setPriority(6);
+Priority t4=new Priority("Thread 4");
+t4.setPriority(4);
+Priority t5=new Priority("Thread 5");
+t5.setPriority(MAX_PRIORITY);
+
+t1.start();
+t2.start();
+t3.start();
+t4.start();
+t5.start();
+
+long l=System.currentTimeMillis();
+String s="";
+
+while(t1.isAlive() || t2.isAlive() ||t3.isAlive() ||t4.isAlive() || t5.isAlive())
+{
+if(t1.isAlive())
+{
+ s=t1.getName();
+}
+else if(t2.isAlive())
+{
+ s=t2.getName();
+}
+else if(t3.isAlive())
+{
+  s=t3.getName();
+}
+else if(t4.isAlive())
+{
+  s=t4.getName();
+}
+else if(t5.isAlive())
+{
+ s=t5.getName();
+}
+}
+System.out.println("Long lasting thread is: "+s);
+} 
+}
