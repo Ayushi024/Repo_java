@@ -107,10 +107,42 @@ Ques 34:Write aprogram for generating 2 threads, one for printing even numbers a
 Ques 35:Write aprogram to launch 10 threads. Each thread increments a counter variable. Runthe program with synchronization.
 
 Ques 36:Write aJava program to create five threads with different priorities. Send two threadsof the highest priority to sleep state. Check the aliveness of the threads andmark which thread is long lasting 
+
+
+
+ 
+
+                                          TITLE: Collections
+
+Ques 37:.Write aprogram for the following
+Read all elements from ArrayList by usingIterator.
+Create duplicate object of an ArrayListinstance.
+Reverse ArrayList content.
+
+Ques 38:Write aprogram for the following HashMap
+find whether specified key exists or not.
+find whether specified value exists or not
+get all keys from the given HashMap
+get all key-value pair as Entry objects
+
+Ques 39:.Write aprogram for the following HashSet
+copy another collection object to HashSetobject.
+delete all entries at one call from HashSet
+search user defined objects from HashSet
                                                                  
                                                                  
                                                                  
-                                                                 
+                                        TITLE: JDBC 
+
+Ques 30:Create adatabase table to store the records of employee in a company. Use getConnectionfunction to connect the database. The statement object uses executeUpdatefunction to create a table.
+
+Ques 31:Create adatabase of employee of company in mysql and then use java program to accessthe database for inserting information of employees in database. The SQLstatement can be used to view the details of the data of employees in thedatabase.
+
+Ques32:Create atable Meeting having columns (NameOfParticipant, MeetingID, ScheduledTime,Email, Mobile), Populate with random data and perform following operations.READ COMPLETE QUESTION TO POPULATE DATABASE.
+i) Display the names on the console, preceded by the message, “Names ofparticipants in meeting 1144”.
+ii) Don’t specify theparticipant ID - let the ID be determined by the database. Determine the IDthat was assigned to the new participant and display it on the console (thestatement that displays the ID should display the name of the new participantas well).
+iii) Display amessage on the console that gives both the meeting name and the number ofparticipants
+iv) Display the names, preceded by the message, “Participants attending Tuesdaymeetings”.                                                                 
                                                                  
                                                                  
 
