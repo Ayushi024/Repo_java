@@ -146,5 +146,13 @@ iv) Display the names, preceded by the message, “Participants attending Tuesda
                                                                  
                                                                  
 
+                                    TITLE: Servlet
 
+Ques 33:Servlet:a) ServletContext interface b)getParameterValues() of Servlet Request
+
+Ques 34: Write a Servlet page to display current date of the server.
+
+Ques 35: Write a Servlet page to which include the two other Servlet page through of include directivesfeature provided in Servlet.
+
+Ques 36:Write a Servlet page to create a simple calculator
 
